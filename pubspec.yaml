@@ -1,0 +1,23 @@
+name: fabric_icons
+description: Fabric uses a custom font for its iconography. This font contains glyphs that you can scale, color, and style in any way. There are also mirrored icons available for right-to-left localization. You can also download and install the icon font to use it with various design apps like Sketch, Figma, or Adobe XD.
+version: 0.0.1
+author: Daniel Lucas Silva<dluc18@gmail.com>
+homepage: https://github.com/daniel-lucas-silva/fabric_icons
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  fonts:
+    - family:  FabricIcons
+      fonts:
+        - asset: fonts/fabric-icons.woff
